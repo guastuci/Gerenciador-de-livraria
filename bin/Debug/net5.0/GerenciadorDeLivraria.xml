@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GerenciadorDeLivraria</name>
+    </assembly>
+    <members>
+        <member name="M:GerenciadorDeLivraria.Controllers.BooksController.Create(GerenciadorDeLivraria.DTOs.BookCreateDto)">
+            <summary>POST /api/books - Cria um novo livro</summary>
+        </member>
+        <member name="M:GerenciadorDeLivraria.Controllers.BooksController.GetAll(System.String,System.String,System.String,System.Nullable{System.Decimal},System.Nullable{System.Decimal},System.Nullable{System.Boolean},System.Int32,System.Int32,System.String,System.String)">
+            <summary>GET /api/books - Lista com filtros opcionais</summary>
+        </member>
+        <member name="M:GerenciadorDeLivraria.Controllers.BooksController.GetById(System.Guid)">
+            <summary>GET /api/books/{id} - Busca por ID</summary>
+        </member>
+        <member name="M:GerenciadorDeLivraria.Controllers.BooksController.Update(System.Guid,GerenciadorDeLivraria.DTOs.BookUpdateDto)">
+            <summary>PUT /api/books/{id} - Atualiza um livro</summary>
+        </member>
+        <member name="M:GerenciadorDeLivraria.Controllers.BooksController.Delete(System.Guid)">
+            <summary>DELETE /api/books/{id} - Exclui um livro</summary>
+        </member>
+    </members>
+</doc>
